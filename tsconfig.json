@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "target": "ES2022",
+      "module": "NodeNext",
+      "moduleResolution": "NodeNext",
+      "outDir": "build",
+      "rootDir": "./",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "resolveJsonModule": true,
+      "typeRoots": ["./node_modules/@types"]
+    },
+    "include": [
+      "*.ts",
+      "src/**/*.ts"
+    ],
+    "exclude": [
+      "node_modules",
+      "src/config/**/*"
+    ]
+  }

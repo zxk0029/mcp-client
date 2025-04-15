@@ -1,0 +1,24 @@
+{
+  "name": "mcp-clinet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/src/cli.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && chmod 755 build/src/cli.js",
+    "start": "node build/src/cli.js",
+    "test": "tsx examples/demo.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.9.0",
+    "dotenv": "^16.4.7",
+    "openai": "^4.89.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.11",
+    "typescript": "^5.8.2"
+  }
+}
